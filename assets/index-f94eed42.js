@@ -3571,9 +3571,9 @@ No matching component was found for:
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out`,onClick:()=>window.open("https://drive.google.com/file/d/1o2LONsgMNHzH0s8HZjXw7Z-n2QPV1hFH/view?usp=sharing","_blank"),onMouseOver:()=>{document.querySelector(".download-btn").setAttribute("src",Pj)},onMouseOut:()=>{document.querySelector(".download-btn").setAttribute("src",SC)},children:["MY RESUME",oe.jsx("img",{src:SC,alt:"download",className:`download-btn sm:w-[26px] sm:h-[26px] 
-                w-[23px] h-[23px] object-contain`})]})})]})})]}),P9=_h(R9,"experience"),L9=({id:n,name:e,description:t,image:i,repo:r,demo:s,index:o,active:a,handleClick:u})=>oe.jsxs(Nr.div,{variants:Tg("right","spring",o*.5,.75),className:`relative ${a===n?"lg:flex-[3.5] flex-[10]":"lg:flex-[0.5] flex-[2]"} flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`,onClick:()=>u(n),children:[oe.jsx("div",{className:`absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.5] rounded-[24px]`}),oe.jsx("img",{src:i,alt:e,className:"absolute w-full h-full object-cover rounded-[24px]"}),a!==n?oe.jsx("div",{className:"flex items-center justify-start pr-[4.5rem]",children:oe.jsx("h3",{className:`font-extrabold font-beckman uppercase w-[200px] h-[30px] 
+                w-[23px] h-[23px] object-contain`})]})})]})})]}),P9=_h(R9,"experience"),L9=({id:n,name:e,description:t,image:i,repo:r,index:s,active:o,handleClick:a})=>oe.jsxs(Nr.div,{variants:Tg("right","spring",s*.5,.75),className:`relative ${o===n?"lg:flex-[3.5] flex-[10]":"lg:flex-[0.5] flex-[2]"} flex items-center justify-center min-w-[170px] 
+      h-[420px] cursor-pointer card-shadow`,onClick:()=>a(n),children:[oe.jsx("div",{className:`absolute top-0 left-0 z-10 bg-jetLight 
+      h-full w-full opacity-[0.5] rounded-[24px]`}),oe.jsx("img",{src:i,alt:e,className:"absolute w-full h-full object-cover rounded-[24px]"}),o!==n?oe.jsx("div",{className:"flex items-start pr-[4.5rem]",children:oe.jsx("h3",{className:`font-extrabold font-beckman uppercase w-[200px] h-[30px] 
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20`,children:e})}):oe.jsx(oe.Fragment,{children:oe.jsxs("div",{className:`absolute bottom-0 p-8 justify-start w-full 
